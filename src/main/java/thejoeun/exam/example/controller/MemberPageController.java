@@ -8,16 +8,16 @@ public class MemberPageController {
 
     @GetMapping("/")
     public String home() {
-        return "index";
+        return "Index";
     }
 
     @GetMapping("/login")
     public String login() {
-        return "login";
+        return "Login";
     }
 
     @GetMapping("/signup")
     public String signup() {
-        return "signup";
+        return "SignUp";
     }
 }
